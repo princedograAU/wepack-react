@@ -9,17 +9,17 @@ This file contains step by step guide to setup react project from scratch with t
 #### \t npm init
 * install dev dependencies
     * webpack
-        npm install --save-dev webpack webpack-cli webpack-dev-server 
+        #### npm install --save-dev webpack webpack-cli webpack-dev-server 
     * react
-        npm install --save-dev react react-dom
+        #### npm install --save-dev react react-dom
     * babel
-        npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-env @babel/plugin-syntax-jsx
+        #### npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-env @babel/plugin-syntax-jsx
     * css/sass loader
-        npm install --save-dev css-loader style-loader sass sass-loader
+        #### npm install --save-dev css-loader style-loader sass sass-loader
     * image loader
-        npm install --save-dev file-loader url-loader
+        #### npm install --save-dev file-loader url-loader
     * plugins
-        npm install --save-dev html-webpack-plugin
+        #### npm install --save-dev html-webpack-plugin
 
 ### react                       - package that contains only functionalities necessary to define react components
 ### react-dom                   - run in parallel to react to render dom
